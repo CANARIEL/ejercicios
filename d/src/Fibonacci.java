@@ -15,37 +15,29 @@ import java.util.ArrayList;
     public static void main(String[] args){
 
     ArrayList<Integer> nume  =new  ArrayList<>();
- 
-     ArrayList<Integer> nume1  =new  ArrayList<>();
-     nume1.add(0);
-     nume1.add(1);
+    nume.add(0);
+    nume.add(1);
+    //  ArrayList<Integer> nume1  =new  ArrayList<>();
+   
 
-     for(int i  =1; i < 50; i++){
-        nume.add(i);
+      int process = nume.get(0) +  nume.get(1);
+         nume1.add(process);
+     for(int i =0; i <=50; i++){
         
-
-     }
-int process =  nume1.get(0) +  nume1.get(1);
-        nume1.add(process);
-System.out.println(nume);
-    for(int ii = 0; ii < nume.size();  ii++){
-        
-        int p =  nume.get(0) + nume.get(1);
-        nume1.add(p);
-        nume.remove(0);
-         
-        
-    }
-
-
-    System.out.println(nume1);
-    System.out.println("esto solo es un prueba de ramas para github");
-    
-     
-
-
-
+        int n = nume.get(nume.size() -2);
+        int n1 = nume.get(nume.size() -1);
+          int fr = n + n1;
            
+          nume.add(fr);
+       
+            
+
+    
+     }
+
+
+
+ System.out.println(nume); 
     
         }
 
