@@ -17,7 +17,7 @@ import java.util.ArrayList;
     ArrayList<Integer> nume  =new  ArrayList<>();
     nume.add(0);
     nume.add(1);
-    //  ArrayList<Integer> nume1  =new  ArrayList<>();
+    
    
 
       int process = nume.get(0) +  nume.get(1);
