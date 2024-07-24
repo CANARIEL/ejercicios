@@ -17,15 +17,58 @@ public class cuantosdias{
     public static void main(String[] args){
 
 
-        Scanner escuchando  = new Scanner(System.in);
-        System.out.println("escriba  las fechas en este formato para poder calcular cuanto tiempo paso  dd/mm/aa  ");
-        String fechas = escuchando.nextLine();
 
-        fechas = fechas.replaceAll("[\\D+ //]","");
+    //    int salary = 1000;
+    //    int bono = 200;
 
-        System.out.println(fechas);
- //hasta aqui lo dehamos mñn seguimos :)
- 
+
+
+    //     int process =  salary + bono;
+    //     System.out.println(process-50 + (30 * 2) - 45);
+
+
+    String pal = "gato locos";
+
+        pal = pal+ " miau ";
+        pal=  " maiu " +pal;
+         
+        String pal2 = pal.substring(0,10);
+        String pal3 = pal.substring(11, 20);
+
+        String process = pal2 + "la luna es cuadrada"+ pal3;
+
+        System.out.println(process);
+
+        final int soup = 23;
+
+        int 1sopa = 12;
+
+         float pp =11111;
+
+       
+
+
+
+
+
+        // Scanner escuchando  = new Scanner(System.in);
+        // System.out.println("escriba un nombre ");
+        // String fechas = escuchando.nextLine();
+
+       
+
+
+
+        // fechas = fechas.replaceAll("[\\D+]","");
+
+        // for(int  i = 0; i < fechas.length(); i++){
+        //     char process = fechas.charAt(i);
+        
+        //     System.out.println(process);
+        // }
+        
+      
+    
 
 
 
