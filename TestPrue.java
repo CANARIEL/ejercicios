@@ -1,6 +1,12 @@
+
+
+
 public class TestPrue {
     public static void main(String[] args){
+  
 
+
+         System.out.println("hey esto funciona");
 
           double lony = 10.3;
             int lonL = 12;
@@ -155,24 +161,24 @@ public class TestPrue {
             
               
             //  System.out.println(pruebaO1);
-
-
             
+         //    }
+         // }
 
     }
 }
 
-
-
-
-             
-  public static int pruebaO1( int a, int b){
+//  public static int pruebaO1( int a, int b){
         
 
-     a = 13;
-     b = 12;
+//      a = 13;
+//      b = 12;
 
    
 
-      return  a  + b; 
-   }
+//       return  a  + b; 
+//    }
+
+
+             
+ 
