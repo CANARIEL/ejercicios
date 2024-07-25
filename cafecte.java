@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class cafecte{
 
-
+///prueba de merger
 
      public static void VerificarCualEsElPedidoDelClientemap(LinkedHashMap<String,Double> menuCafeteria, String listenCafe){
 
