@@ -50,7 +50,12 @@ public class cafecte{
           listenCafe = listenCafe.replaceAll("[0-9]","");
          
           
+          /*
 
+          *hey que tal mundo esta es un prueba de documentacion  de mi   codigo este codigo 
+          * prueba pruena de docuemtacion sobre estso
+          * @param  args listen cafe <p> esta se un variable que escucha al usuario y resive  un string  cd</p>
+          */
 
 
 
