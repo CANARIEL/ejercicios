@@ -14,7 +14,10 @@ public class NumberTest2{
    }
 
 
-     
+ /**
+  * 
+  * @param ValidandoEntraUsuario <p>este nos ayuda recibiendo  un int y retornado un boolean</p>
+  */     
 
     public static void main(String[] args){
 
@@ -30,15 +33,12 @@ public class NumberTest2{
          System.out.println("ingrese un numero del 1-100 ");
          int  usuarioListen = publicUs1.nextInt();
 
-         // usuarioListen = 1;
 
 
          System.out.println(usuarioListen);
          Random numberT1 = new Random();
          
-         // scanner.remove();
-         // System.out.println("ingrese nuevamente un numero");
-         //       usuarioListen  = publicUs1.nextInt();
+      
             boolean  usuarioLei = ValidandoEntraUsuario(usuarioListen);
                System.out.println(usuarioLei);
 
@@ -56,12 +56,12 @@ public class NumberTest2{
             if(usuarioListen < numbert2  ){
 
                System.out.println("su numero es menor al del computador vuelva  intentar"+numbert2);
-               // usuarioListen = 1;
+              
                continue;
 
             }else if( usuarioListen > numbert2){
                System.out.println("su numero es   mayor al del computador "+numbert2);
-               // usuarioListen = 1;
+              
                continue;
                
             }else {
