@@ -63,7 +63,7 @@ public class EjerciciosIntemedio{
         }
         
 
-         if(userOne1.equals("decendiente") &&  userOne2.equals("burbuja")){
+         if(userOne1.equals("decendiente") &&  use rOne2.equals("burbuja")){
             System.out.println("usted selecciono  decendiente  y burbuja");
 
 
@@ -82,23 +82,8 @@ public class EjerciciosIntemedio{
 
             }
 
-           
-            
-                 
-
+     
             }
-
-
-
-                
-                // if(NumberWoo.get(i) > NumberWoo.get(i) ){
-
-                // }
-
-            //  }
-                
-
-            // }
 
         
 
@@ -121,8 +106,6 @@ public class EjerciciosIntemedio{
        } while (true);
     //    System.out.println("usted a terminado este programa con exito muchas gracias por contribuir en  el aprendizaje");
 
-
-
     }
 
 
@@ -135,7 +118,7 @@ public class EjerciciosIntemedio{
         // Permite al usuario elegir el tipo de ordenamiento (ascendente o descendente).
         // Mide el tiempo de ejecución de cada algoritmo para comparar su eficiencia.
 
-        Scanner = = new Scanner(System.in);
+        Scanner enterosHumano = new Scanner(System.in);
         System.out.println("ingrese un numero entero para poder crear  un arreglo de numeros");
         int numberEntero = enterosHumano.nextInt();
 
