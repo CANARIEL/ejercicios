@@ -2,11 +2,11 @@
 
 // import org.omg.DynamicAny.DynAnyOperations;
 
-class Tablet extends Telefono{
+class Telefono extends  SmartPhone{
     
 
 
-    public Tablet(Double weigth, String color, Double measure, Double price ){
+    public Telefono(Double weigth, String color, Double measure, Double price ){
             super(weigth, color, measure, price);
 
     }

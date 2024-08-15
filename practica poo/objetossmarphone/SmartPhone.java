@@ -15,22 +15,29 @@ class SmartPhone{
             this.price = price;
             this.measures = measures;
                 
-
-
-          public  void printSmartPhone() {
+              
             
-                System.out.println("the weigth telephone " +weight+ "color phone in " +color+ "it's price is " +price+  "measures are "+measures);
-
-
-
-            }
-
-
-
 
 
     }
+
+               public void printSmartPhone() {
+
+                    System.out.println("the weigth " +weight);
+                    System.out.println("the color is  " +color);
+                    System.out.println("the price " +price);
+                    System.out.println("the measures " +measures);
+
+                }
+
+            // public void printSmartPhone() {
+            //     // TODO Auto-generated method stub
+            //     throw new UnsupportedOperationException("Unimplemented method 'printSmartPhone'");
+            // }
+
+
     
+            // }
 
 
 

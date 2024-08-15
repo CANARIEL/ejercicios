@@ -7,10 +7,7 @@ class Mamifero extends  Animals{
 
 
 
-                public void  printMamifero(){
-                        System.out.println("age " +age+   "raza" +raza+   "name "  +name+    "stature"  +stature+  "color" +color); 
-                   
-                }
+           
 
     }
 }

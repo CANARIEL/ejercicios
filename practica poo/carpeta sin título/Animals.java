@@ -12,5 +12,12 @@ class Animals{
             this.color = color;
             this.stature = stature;
             this.age = age;
-}
+
+    }
+
+         public  void  printAnimals() {
+                System.out.println("age " +age+   "raza" +raza+   "name "  +name+    "stature"  +stature+  "color" +color); 
+           
+        }
+
 }
