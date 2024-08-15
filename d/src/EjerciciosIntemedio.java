@@ -141,3 +141,8 @@ public class EjerciciosIntemedio{
 
 
 }
+
+Python
+
+
+class Person:
