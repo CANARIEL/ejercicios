@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "./Python"
+    ],
+    "python.analysis.extraPaths": [
+        "./Python"
+    ],
+    "python.REPL.enableREPLSmartSend": false,
+    "java.debug.settings.onBuildFailureProceed": true,
+}

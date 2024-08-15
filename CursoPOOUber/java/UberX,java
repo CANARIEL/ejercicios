@@ -1,0 +1,16 @@
+class UberX extends Car{
+
+    String model;
+    String marca;
+
+   public UberX(String license, String passegenger, String id , String model, String marca, Account driver ){
+            super(license, passegenger, id, model, marca, driver);
+
+            this.model = model;
+            this.marca = marca;
+      
+
+
+
+   }
+}
