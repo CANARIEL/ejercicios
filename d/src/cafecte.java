@@ -17,15 +17,7 @@ public class cafecte{
                          System.out.println("su pedido es  "+listenCafe+"su valor total a pagar es "+process);
                      }else{
                          System.out.println("este  producto no se encuentra disponible muchas gracias");
-                     }
-               }
-
-     public static void main(String[] args){
-
-                          
-          // try{
-        
-        LinkedHashMap<String, Double> menuCafeteria = new LinkedHashMap<>();
+                     }11
 
                     String productoUno = "capuchino";
                      Double precioProducto = 1.50;

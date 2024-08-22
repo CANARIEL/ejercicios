@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../carpeta sin título"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../CursoPOOUber"
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}
