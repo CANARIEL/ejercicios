@@ -1,13 +1,16 @@
+package com.
+
 import java.util.Scanner;
+
 
 
 class Fabrica{
   static  int id = 0;;
-    String  Dirrection;
-    String  place;
-    String measures;
-    String name;
-    String area;
+     protected String  Dirrection;
+     protected String  place;
+     protected String measures;
+     protected  String name;
+     protected String area;
 
 
 

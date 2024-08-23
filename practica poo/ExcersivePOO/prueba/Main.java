@@ -1,4 +1,4 @@
-// import java.util.Scanner;x
+package com.Entrance;
 
 
 class Main{
@@ -9,6 +9,8 @@ class Main{
                 // String Guardia1 = Guardia.nextLine();
 
                 Fabrica fabrica = new Fabrica();
+                    // MateriaPrima.
+
 
 
                 // fabrica.Dirrection = "Guayaquil ecuador, fabrica de amor ";

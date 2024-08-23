@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-
+package  com.fabrica.user;
 
 /**
  * @author Ariel Mendoza ingeniero en proceso
@@ -11,11 +10,13 @@ import java.util.Scanner;
  */
 
 
-   class User {
+   class User  {
     public  static void  user1 (String userJobFactory) {
 
     if (userJobFactory.equals("1")) {
         System.out.println("Bienvenido  a la frabrica  de fabrica de amor ");
+
+         
       
     } else if(userJobFactory.equals("2")) {
       System.out.println("Bienvenido  a la frabrica  de fabrica de peluches que hacen kboom");
