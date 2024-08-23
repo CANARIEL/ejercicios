@@ -30,40 +30,44 @@ Fabrica() {
         switch (userJobFactory) {
             case "1":
                    System.out.println("su fabrica a sido seleccionada correctamente  va ser rederigido a esta  por favor  tenga sus documentos de  identificacion a mano");
-                   User.User1();
-                   
+                         User.user1(userJobFactory);
                      boolean verdadL0 = true;
                 break;
             case "2":
                     System.out.println("su fabrica a sido seleccionada correctamente  va ser rederigido a esta  por favor  tenga sus documentos de  identificacion a mano");
-                    
-                    boolean verdadL1 = true;
-                    break;
+                      User.user1(userJobFactory);
+
+
+                      break;
             case "3":
                     System.out.println("su fabrica a sido seleccionada correctamente  va ser rederigido a esta  por favor  tenga sus documentos de  identificacion a mano");
+                    User.user1(userJobFactory);
                     boolean verdadL2 = true;
                       break;
         
             default:
              System.out.println("no hemos logrado encontrar su ubicacion vuelva  intentar");
                     boolean falsL = false;
-                break;
+                
         }
-  } while (!true);
-    System.out.println("esta correcto");
+  } while (true);
+    // System.out.println("esta correcto");
+
+
+    // User.user1(userJobFactory);
    
 
 }
-Fabrica(String Dirrection, String place){
-        System.out.println(Dirrection+" "+place);
+// Fabrica(String Dirrection, String place){
+//         System.out.println(Dirrection+" "+place);
         
-}
+// }
 
-public void FabricaHablar() {
+// public void FabricaHablar() {
 
-    System.out.println(id);
-    System.out.println(Dirrection);
-}
+    // System.out.println(id);
+    // System.out.println(Dirrection);
+// }
 
 
 

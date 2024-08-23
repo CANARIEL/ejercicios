@@ -9,32 +9,32 @@ import java.util.Scanner;
  *  UserInter 
  * 
  */
-public interface  UserInter {
-    void  userDirrection();
-
-class User implements UserInter {
 
 
-public void  userDirrection () {
-  Scanner userJobs = new Scanner(System.in);
-  String userArea = userJobs.nextLine();
-  System.out.println("Bienvenido a la fabrica de fabrica de amor, escriba su nombre  y id de trabajo para enviarlo a su respetiva area");
+   class User {
+    public  static void  user1 (String userJobFactory) {
+
+    if (userJobFactory.equals("1")) {
+        System.out.println("Bienvenido  a la frabrica  de fabrica de amor ");
+      
+    } else if(userJobFactory.equals("2")) {
+      System.out.println("Bienvenido  a la frabrica  de fabrica de peluches que hacen kboom");
+
+      
+    } else if(userJobFactory.equals("3")){
+        System.out.println("Bienvenido a la  Fabrica de minas que no explotan");
+    }else{
 
 
-/// ES HPRA DE MIMIR 
+    } 
 
- }
-
-
-    
+   
 }
 
-// public void  User1 implements () {
-//   Scanner userJobs = new Scanner(System.in);
-//   String userArea = userJobs.nextLine();
-//   System.out.println("Bienvenido a la fabrica de fabrica de amor, escriba su nombre  y id de trabajo para enviarlo a su respetiva area");
+
+  
+
 
 }
  
   
-}

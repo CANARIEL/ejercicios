@@ -10,9 +10,10 @@ class Main{
 
                 Fabrica fabrica = new Fabrica();
 
+
                 // fabrica.Dirrection = "Guayaquil ecuador, fabrica de amor ";
 
-                fabrica.FabricaHablar();
+
 
                 // Fabrica fabrica2 = new Fabrica();
                 // fabrica.Dirrection = "Fabrica de peluches que hacen kbomm ";
