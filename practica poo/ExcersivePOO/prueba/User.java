@@ -1,5 +1,5 @@
 import java.util.Scanner;
-package  com.fabrica.user;
+
 
 /**
  * @author Ariel Mendoza ingeniero en proceso
