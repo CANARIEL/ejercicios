@@ -12,7 +12,7 @@ public static ArrayList<String> LibrosEt(){
     ArrayList<String> NameBook = new ArrayList<>();
 
     NameBook.add("Orgullo y Prejuicio");
-    NameBook.add("Cien años de soledad");
+    NameBook.add("Orgullo y Prejuicios");
     NameBook.add("El señor de los anillos");
     NameBook.add("Stephen King");
     NameBook.add("Haruki Murakami");
@@ -40,8 +40,8 @@ public static ArrayList<String> LibrosEt(){
    
          ArrayList<String> LibrosEtc = LibrosEt();
             bibliote.BuscandoBook(userListen,LibrosEtc );
-
-
+        Biblioteca.Libro Libro =  bibliote.new Libro();
+         Libro.LibroAutor( null );
          
 
 

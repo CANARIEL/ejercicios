@@ -6,27 +6,51 @@
 atributos como título, autor, ISBN y un método para indicar si está disponible o prestado.
 Usuario: Similar a Libro, esta clase también será anidada dentro de Biblioteca y representará a un usuario.
  Podrá tener atributos como nombre, ID de usuario y una lista de libros prestados.*/
+import java.util.HashMap;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 class Biblioteca{
 
-  
+  public static  void  SegundaLibroDatos(String titulo, ArrayList<String>LibrosEtc){
+    Scanner userOne = new Scanner(System.in);
+    boolean heyT =  true;
+     int i  = 0;
+     System.out.println(i);
+      while (  heyT == true ) {
+              
 
+            System.out.println("Ingrese nuevamente el  nombre de su libro");
+           String busquedaUser = userOne.nextLine();
+             titulo = busquedaUser;
+                
+                  for (int j = 0; j < LibrosEtc.size(); j++) {
+                                // System.out.println(titulo+" "+heyT+" "+LibrosEtc.get(j));
+            if (LibrosEtc.get(j).contains(titulo)) {
+               System.out.println("se a encontrado su  libro y sus coincidencias "+LibrosEtc.get(j));
+                  heyT = false;
+                   
+                   break;
+            } else {
+                  //  i++;
+              heyT =  true;
+            // 
+            }
 
-
-
-private ArrayList<String> LibrosEtc;;
+          }
+      }
+  }
+private ArrayList<String> LibrosEtc;
 private String titulo;
-String id;
-String Autor;
-String  Fecha;
-String email;
-String name;
-Double page;
-String dirretion;
-boolean elseSay;
+private String id;
+private String Autor;
+private String  Fecha;
+private String email;
+private String name;
+private Double page;
+private String dirretion;
+private boolean elseSay;
 
    
 
@@ -37,52 +61,71 @@ public  Biblioteca(String titulo){
   
 public  static void BuscandoBook(String titulo, ArrayList<String>LibrosEtc){
 
-   boolean elseSay = false;
+            String  fraseSe = " cc  ";
+              for (int i = 0; i < LibrosEtc.size() -1; i++) {
+                    if (LibrosEtc != null  && LibrosEtc.get(i).equalsIgnoreCase(titulo)) {
+                       fraseSe ="se a encontrado su libro "+LibrosEtc.get(i);
+                    }
 
-  for (int i = 0; i <  LibrosEtc.size() -1; i++) {
+              }
+  //  System.out.println(fraseSe);
+    
+   if (fraseSe.contains("cc")) {
 
-    boolean  VerificandoTrueOFalse =  (LibrosEtc.get(i).contains(titulo)) ?   true : false;
-
-            // System.out.println(VerificandoTrueOFalse);
-
-            if (VerificandoTrueOFalse == true) {
-               elseSay = VerificandoTrueOFalse;
-              
-            } else {
-              
-            }
-        
-
-    }
- 
+     SegundaLibroDatos(titulo, LibrosEtc);
+   }else{
+    System.out.println(fraseSe);
+   }
 
 
-
-}
+  }
 class Libro{
 
-public void Libro(Double page){
+    public HashMap<String, String> AutorName(){
+        HashMap<String, String> NameOne = new HashMap<>();
+         NameOne.put(Fecha, Autor)
 
-    for (int i = 0; i < LibrosEtc.size(); i++) {
 
-          if (LibrosEtc.contains(titulo)) {
-                System.out.println("su libro fue encontrado en nuestra base datos  a continuacion mostraremos "+LibrosEtc.get(i));
-          } 
+
+       
+           
+        
+    return NameOne;
+
+
+    }
+
+
+
+public void  LibroAutor( String autor){
+
+   HashMap<String, String> NameAutor = AutorName();
+     
+   System.out.println(NameAutor);
+
+    
+
+  
+
+
           Scanner userOne = new Scanner(System.in);
           System.out.println("Escriba el autor de su libro para poder  encontrar el indicado");
           String autorTitle =  userOne.nextLine();
+
+
+
+
+
+
     
     }
 
 
+
   
-
-   
-
-  }
   
 }
-}
+
 class Usuario{
 
 
@@ -96,7 +139,17 @@ class Usuario{
     
 
 
+  
+  }
+
+
+
+
+
+
+
 }
+
 
 
 
