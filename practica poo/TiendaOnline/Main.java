@@ -11,18 +11,14 @@ class Main{
 
 
 
-    Producto producto =  new Producto(null, null, 0);
-
-   
+   Producto   producto =  new Producto(null, null, null);
+   Pedido pedido =  new Pedido(null, null);
     // producto.AddProduct();
+//    Cajero.CajeroVerification();
 
-    // Cajero.CajeroSaluda();
-    // Cajero cajero = new Cajero(null, null);
-    // cajero.CajeroVerification();
-    // Pedido.TomarPedido();
-
-    //         Producto.DatosCompartir(producto);
-            Pedido.TomarPedido();
+    // Producto.DatosCompartir(producto);
+    pedido.AddProduct();
+    // Pedido.VerificandosDatos();
 
 
 
@@ -30,7 +26,9 @@ class Main{
 
             
 
-    Cliente cliente =  new Cliente(null);
+
+
+     
 
             
 

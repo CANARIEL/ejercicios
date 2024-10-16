@@ -1,21 +1,22 @@
 import java.util.ArrayList;
+import java.math.BigDecimal;
 
 class Producto{
-   protected final ArrayList<Producto>productTrue  =  new ArrayList<>();
+   protected  ArrayList<Producto>productTrue  =  new ArrayList<>();
    private String nameProduct;
-    private Double  pay;
+    private BigDecimal  pay;
    private String stock;
    private String name;
    private String id;
-    private int  count;
+    private Integer  count;
 
    
 
    
-public Producto(String nameProduct, Double pay, int count){
+public Producto(String nameProduct, BigDecimal  pay, Integer count){
 
         this.nameProduct = nameProduct;
-        this.pay = pay;
+        this.pay =  pay;
         this.count  = count;
 
 
@@ -24,9 +25,9 @@ public Producto(String nameProduct, Double pay, int count){
 
 }
 
-public Producto(String id, Double pay){
+public Producto(String id, BigDecimal  pay){
      this.id = id;
-     this.pay = pay;
+     this.pay =  pay;
 
 }
 
@@ -37,14 +38,18 @@ public Producto(String id, Double pay){
 
 
 public void  AddProduct(){
-    Producto producto0 = new Producto("Coffe", 1.10, 0); 
-    Producto producto1 = new Producto("Suggar", 1.68, 0); 
-    Producto producto2 = new Producto("Chicken", 7.80,0); 
-    Producto producto3 = new Producto("Bean", 3.45,0); 
-    Producto producto4 = new Producto("Water", 1.00,0); 
-    Producto producto5 = new Producto("tea", 0.67, 0); 
-    Producto producto6 = new Producto("vino", 4.00, 0); 
-    Producto producto7 = new Producto("six cerveza", 6.67, 0); 
+    Producto producto0 = new Producto("Coffe",  new BigDecimal(1.10),0); 
+    Producto producto1 = new Producto("Suggar", new BigDecimal(3.45), 0); 
+    Producto producto2 = new Producto("Chicken", new BigDecimal(7.80),0); 
+    Producto producto3 = new Producto("Bean", new BigDecimal(1.10),0); 
+    Producto producto4 = new Producto("Water", new BigDecimal(0.67),0); 
+    Producto producto5 = new Producto("tea", new BigDecimal(4.00), 0); 
+    Producto producto6 = new Producto("vino",new BigDecimal(3.10) , 0); 
+    Producto producto7 = new Producto("cerveza", new BigDecimal(1.10), 0); 
+
+
+    
+
 
 
 
@@ -97,14 +102,14 @@ public String getId() {
     return id;
 }
 
-public Double getPay(){
+public BigDecimal getPay(){
      return pay;
 
 
 }
 
 
-public int getCount() {
+public Integer getCount() {
     return count;
 }
 
@@ -133,6 +138,15 @@ System.out.println("  stock " +producto.getNameProduct()+"  "+producto.getPay()+
 
 
 
+}
+
+public void setProductTrue(ArrayList<Producto> productTrue) {
+    this.productTrue = productTrue;
+}
+
+
+public void setCount(Integer count) {
+    this.count = count;
 }
 
 }
