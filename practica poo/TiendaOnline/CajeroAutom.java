@@ -28,6 +28,10 @@ public static  void CajeroAutom1(){
       
     
      Producto.DatosCompartir(producto);
+     Pedido pedido =  new Pedido(null, null);
+     pedido.AddProduct();
+
+
 
 
 

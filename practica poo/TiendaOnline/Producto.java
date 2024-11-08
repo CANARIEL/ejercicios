@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.math.BigDecimal;
+import java.text.NumberFormat;
 
 class Producto{
    protected  ArrayList<Producto>productTrue  =  new ArrayList<>();
@@ -9,6 +10,7 @@ class Producto{
    private String name;
    private String id;
     private Integer  count;
+    private ArrayList<String> datosUsuario;
 
    
 
@@ -22,6 +24,14 @@ public Producto(String nameProduct, BigDecimal  pay, Integer count){
 
        
 
+
+}
+
+public Producto(String nameProduct, BigDecimal  pay, Integer count,String datosUsuario){
+             this.nameProduct = nameProduct;
+             this.pay =  pay;
+             this.count  = count;
+             this.datosUsuario = datosUsuario;
 
 }
 
@@ -132,7 +142,17 @@ public Integer getCount() {
                  
                  } 
 
-System.out.println("  stock " +producto.getNameProduct()+"  "+producto.getPay()+"$");
+                              
+                 BigDecimal  daticosOne =  new BigDecimal(String.valueOf(producto.getPay()));
+
+                                                
+                                          
+                BigDecimal precioRedt = daticosOne.setScale(2, BigDecimal.ROUND_HALF_DOWN);
+ 
+                NumberFormat moneditaTwo = NumberFormat.getCurrencyInstance();
+                String preciFormet = moneditaTwo.format(precioRedt);
+
+System.out.println("  stock " +producto.getNameProduct()+" "+ preciFormet);
 
             }
 

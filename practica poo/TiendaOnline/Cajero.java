@@ -52,21 +52,18 @@ public Cajero(String id, Double pay){
         talkUser = true;
         System.out.println("Bienvenido al cajero manual \n"+"Es un gusto atenderle esto son nuestros productos disponible" );
     
-      // 
+         Pedido pedido =  new Pedido(null, null);
+
        Producto.DatosCompartir(producto);
+       pedido.AddProduct();
+       
 
-              //  for (Producto producto2 : productosInventario) {
-                 
-              //     BigDecimal  precioRedonde =    new  BigDecimal(producto2);
-
-              //     BigDecimal preDecimal1 = precioRedonde.setScale(2,  BigDecimal.ROUND_HALF_UP);z
-
-              //  }
+          
         break;
         case 2:
         System.out.println("usted a elegido cajero electronico sera redirrecionado recuerde que tenemos varios metodos de pago ");
         talkUser = true;
-        // CajeroAutom.CajeroAutom1();
+        CajeroAutom.CajeroAutom1();
 
           break;
       
