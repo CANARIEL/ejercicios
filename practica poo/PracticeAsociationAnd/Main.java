@@ -5,7 +5,8 @@ public class Main {
 
 
     SupplierComponents supplierComponents =  new SupplierComponents(null, null);
-  new Computer().disassemble();    
+
+     
 
     }
 }

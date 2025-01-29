@@ -5,7 +5,7 @@ import java.text.NumberFormat;
 class Producto{
    protected  ArrayList<Producto>productTrue  =  new ArrayList<>();
    private String nameProduct;
-    private BigDecimal  pay;
+    private BigDecimal  pay1;
    private String stock;
    private String name;
    private String id;
@@ -15,10 +15,10 @@ class Producto{
    
 
    
-public Producto(String nameProduct, BigDecimal  pay, Integer count){
+public Producto(String nameProduct, BigDecimal  pay1, Integer count){
 
         this.nameProduct = nameProduct;
-        this.pay =  pay;
+        this.pay1 =  pay1;
         this.count  = count;
 
 
@@ -27,17 +27,17 @@ public Producto(String nameProduct, BigDecimal  pay, Integer count){
 
 }
 
-public Producto(String nameProduct, BigDecimal  pay, Integer count,String datosUsuario){
+public Producto(String nameProduct, BigDecimal  pay1, Integer count,String datosUsuario){
              this.nameProduct = nameProduct;
-             this.pay =  pay;
+             this.pay1 =  pay1;
              this.count  = count;
              this.datosUsuario = datosUsuario;
 
 }
 
-public Producto(String id, BigDecimal  pay){
+public Producto(String id, BigDecimal  pay1){
      this.id = id;
-     this.pay =  pay;
+     this.pay1 =  pay1;
 
 }
 
@@ -112,8 +112,8 @@ public String getId() {
     return id;
 }
 
-public BigDecimal getPay(){
-     return pay;
+public BigDecimal getPay1(){
+     return pay1;
 
 
 }
@@ -143,7 +143,7 @@ public Integer getCount() {
                  } 
 
                               
-                 BigDecimal  daticosOne =  new BigDecimal(String.valueOf(producto.getPay()));
+                 BigDecimal  daticosOne =  new BigDecimal(String.valueOf(producto.getPay1()));
 
                                                 
                                           

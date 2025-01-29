@@ -25,16 +25,28 @@ import java.util.HashMap;
                 class Pedido extends Producto{
                     private String fecha;
                     private Boolean Estado;
-                    private ArrayList<Object>datosUsuario;
+                    private ArrayList<String>datosUsuario;
+                    private PayMoreTax PayMoreTax;
 
 
 
+
+                
                 
 
                 public Pedido(String nameProduct, BigDecimal pay ){
                     super(nameProduct, pay);
 
                 }
+                public void setPayMoreTax(PayMoreTax PayMoreTax) {
+                    this.PayMoreTax = PayMoreTax;
+                    PayMoreTax.setPedido(this);
+
+                    }
+                
+                    
+
+              
 
 
 
@@ -46,6 +58,7 @@ import java.util.HashMap;
 
                 @Override
                 public void AddProduct(){
+                    System.out.println("ssxdxd");
 
                 Scanner scanner = new Scanner(System.in);
                 System.out.println("Ingrese  su pedido por favor \n"+"Recuerde que  si algun producto en especifico no se encuentra en nuestra lista principa\n" +"podemos verificar en bodega su stock \n consulte esto con stock /NameProduto/");
@@ -117,7 +130,7 @@ import java.util.HashMap;
 
                                                 // producto3.setCount(num11dX);
                                           
-                                    BigDecimal  daticosOne =  new BigDecimal(String.valueOf(producto3.getPay()));
+                                    BigDecimal  daticosOne =  new BigDecimal(String.valueOf(producto3.getPay1()));
 
                                                 
                                           
@@ -170,43 +183,19 @@ import java.util.HashMap;
                                                             
 
 
-                                                        }
-
+                                                    }
                                                         
                                                     }
                                                  }
-
-
-
-
-
-
-
-                            
-
-                              
-
-
-
-
-
-
-
-
-
-
-
-                                    
-                                
-
-
-                                                
-                                                           
+           
                                         }
 
 
 
+                                            public void bodegaOn(){
 
+
+                                            }
                         
 
 
@@ -288,4 +277,34 @@ import java.util.HashMap;
                     public void setEstado(Boolean estado) {
                         Estado = estado;
                     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
                 }
