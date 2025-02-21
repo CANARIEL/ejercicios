@@ -37,6 +37,11 @@ public class  servidorOne9 {
     server.setExecutor(null);
     server.start();
 
+    /*
+     * futuro yo escuahame este es otro codigo a medias pero hemos logrado mucho hoy es la api con muchas implementaciones que 
+     * hemos construido ajajja debemos terminarlas peor  por cuestion tiempo hoy no es posible pero reitero deberas terminala
+     */
+
 
     server.createContext("/" , new HttpHandler() {
         public void  handle(HttpExchange exchange) throws IOException{
